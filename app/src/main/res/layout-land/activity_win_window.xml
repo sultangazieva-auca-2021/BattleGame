@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/lightYellow"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:elevation="8dp"
+        android:layout_gravity="center"
+        android:background="@color/yellow"
+        app:cardCornerRadius="200dp" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/congratulations_string"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/button_boarder"
+            android:fontFamily="casual" />
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/winner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:elevation="8dp"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:background="@color/green"
+        android:textStyle="bold"
+        android:fontFamily="casual" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="You won"
+        android:gravity="center"
+        android:elevation="8dp"
+        android:textSize="30sp"
+        android:layout_marginTop="8dp"
+        android:background="@color/darkGreen"
+        android:textStyle="bold"
+        android:fontFamily="casual" />
+
+    <Button
+        android:id="@+id/restart_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:gravity="center"
+        android:elevation="8dp"
+        android:textSize="25sp"
+        android:background="@drawable/button_boarder"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:fontFamily="casual" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:gravity="center"
+        android:elevation="8dp"
+        android:textSize="25sp"
+        android:background="@drawable/button_boarder"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold"
+        android:fontFamily="casual" />
+</LinearLayout>

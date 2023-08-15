@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/lightYellow"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:elevation="8dp" >
+
+        <TextView
+            android:id="@+id/goal_string"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_boarder"
+            android:text="@string/points_to_win"
+            style="@style/setUpTextStyle" />
+
+        <EditText
+            android:id="@+id/goal_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/points_hint"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:backgroundTint="@color/black"
+            android:autofillHints="name"
+            style="@style/setUpTextStyle"
+            android:imeOptions="flagNoFullscreen|actionDone"
+            android:imeActionLabel="Finish" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:elevation="8dp" >
+
+        <TextView
+            android:id="@+id/player1_name"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_boarder"
+            android:text="@string/player_1_name"
+            style="@style/setUpTextStyle" />
+
+        <EditText
+            android:id="@+id/player1_name_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/ex_player_1"
+            android:inputType="text"
+            android:gravity="center"
+            android:backgroundTint="@color/black"
+            android:autofillHints="name"
+            style="@style/setUpTextStyle"
+            android:imeOptions="actionDone|flagNoFullscreen"
+            android:imeActionLabel="Finish" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:elevation="8dp" >
+
+        <TextView
+            android:id="@+id/player2_name"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_boarder"
+            android:text="@string/player_2_name"
+            style="@style/setUpTextStyle" />
+
+        <EditText
+            android:id="@+id/player2_name_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/ex_player_2"
+            android:backgroundTint="@color/black"
+            android:inputType="text"
+            android:gravity="center"
+            android:autofillHints="name"
+            style="@style/setUpTextStyle"
+            android:imeOptions="actionDone|flagNoFullscreen"
+            android:imeActionLabel="Finish" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_boarder"
+        android:text="@string/continue_string"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="casual" />
+
+</LinearLayout>

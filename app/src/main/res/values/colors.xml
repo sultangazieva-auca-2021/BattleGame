@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#b1bd17</color>
+    <color name="background_color">#dddec8</color>
+    <color name="button_player1_color">#CA5811</color>
+    <color name="button_player2_color">#C71022</color>
+    <color name="back_color">#F8CA15</color>
+    <color name="green">#42e150</color>
+    <color name="darkGreen">#0bba1b</color>
+    <color name="lightYellow">#f9f63d</color>
 </resources>
